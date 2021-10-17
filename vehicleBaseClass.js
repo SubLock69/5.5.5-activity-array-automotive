@@ -14,10 +14,10 @@ class Vehicle {
     start() {
         if (this.fuel > 0) {
             return this.started = true;
-            console.log("engine started...!!!");
+            console.log("engine started");
         } else {
             return this.started = false;
-            console.log("engine cannot start...");
+            console.log("out of fuel");
         }
     }
     accelerate() {
